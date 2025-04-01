@@ -336,11 +336,12 @@ export default {
             case "raw":
               finalResult = result.join("\n");
               break;
+            case "v2ray":
+              finalResult = btoa(result.join("\n"));
+              break;
             case "clash":
             case "sfa":
             case "bfr":
-              // case "v2ray":
-
               const res = await fetch(CONVERTER_URL, {
                 method: "POST",
                 body: JSON.stringify({
