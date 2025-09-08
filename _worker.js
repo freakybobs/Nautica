@@ -3,8 +3,8 @@ import { connect } from "cloudflare:sockets";
 // import { Buffer } from "node:buffer";
 
 // Variables
-const rootDomain = "freecf2025.workers.dev"; // Ganti dengan domain utama kalian
-const serviceName = "nautica-prod"; // Ganti dengan nama workers kalian
+const rootDomain = "pemburuloli.my.id"; // Ganti dengan domain utama kalian
+const serviceName = "aku"; // Ganti dengan nama workers kalian
 const apiKey = ""; // Ganti dengan Global API key kalian (https://dash.cloudflare.com/profile/api-tokens)
 const apiEmail = ""; // Ganti dengan email yang kalian gunakan
 const accountID = ""; // Ganti dengan Account ID kalian (https://dash.cloudflare.com -> Klik domain yang kalian gunakan)
@@ -1712,4 +1712,5 @@ class Document {
 
     return this.html.replaceAll(/PLACEHOLDER_\w+/gim, "");
   }
+
 }
