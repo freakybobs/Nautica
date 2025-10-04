@@ -1,4 +1,4 @@
-saya = "aku-sih"
+name = "aku-sih"saya = "aku-sih"
 main = "_worker.js"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat_v2"]
